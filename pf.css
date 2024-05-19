@@ -1,0 +1,418 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+.header{
+    margin-top: 8px;
+    background-color: #5a1c74;
+    height: 60px;
+    font-weight: 100%;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+    padding-top: 5px;
+}
+.name{
+    margin-left: 15px;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    font-weight: 350;
+}
+.menus{
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.menus p{
+    cursor: pointer;
+}
+.hire-me{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-top: 8px;
+    padding-left: 18px;
+    margin: 10px;    
+    display: inline-block;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.about-me{
+    user-select: none;
+}
+.left{
+    background-image: url(resume\ .jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 600px;
+    width: 19%;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: #ffd700;
+    font-weight: 450;
+}
+.left span{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.upper{
+    background-color: #5a1c74;
+    height: 600px;
+    width: 79%;
+    margin: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    vertical-align: top; 
+    flex-direction: column; 
+    float: right;
+    position: relative;
+}
+.expertise-skills-page{
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    width: 99.5%;
+    height: 99%; 
+    text-transform: capitalize;
+    color: white;
+    display: none;
+}
+.expertise-skills-page img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    user-select: none;
+}
+.expertise-skills-page span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.expertise-skills-page ul{
+    margin-top: 30px;
+}
+.education-page{
+    height: 99%;
+    width: 99%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.education-page img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    user-select: none;
+}
+.education-page span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.education-page p{
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+.interest-page{
+    height: 99%;
+    width: 99%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.interest-page img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    user-select: none;
+}
+.interest-page span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.language-page{
+    height: 99%;
+    width: 99%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;   
+}
+.language-page img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    user-select: none;
+}
+.language-page span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.addtional-page{
+    height: 99%;
+    width: 99%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;   
+}
+.addtional-page img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    user-select: none;
+}
+.addtional-page span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.contact-page{
+    height: 99%;
+    width: 99%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;   
+}
+.contact-page img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    user-select: none;
+}
+.contact-page span{
+    font-size: 30px;
+    border-bottom: 3px solid white;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.top{
+    background-color: none;
+    width: 99% ;
+    height: 49%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+
+.bottom{
+    background-color: none;
+    width: 99% ;
+    height: 49%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+
+.top1{
+    background-image: url(projects.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 32%;
+    height: 99%;
+    margin-top: 3px;
+    border-radius: 15px;
+    color: black;
+    text-transform: capitalize;
+}
+.top1 span{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight:600;
+    font-size: 25px;
+    color: white;
+}
+.top1 p{
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.top2{
+    background-image: url(education.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 32%;
+    height: 99%;
+    margin-top: 3px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.top2 span{
+    color: white;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight:600;
+    font-size: 25px;
+}
+.top2 p{
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.top3{
+    background-image: url(hobbies.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 32%;
+    height: 99%;
+    margin-top: 3px;
+    border-radius: 15px;
+    color: black;
+    text-transform: capitalize;
+}
+.top3 span{
+    color: white;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight:600;
+    font-size: 25px;
+}
+.top3 p{
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+}
+.bottom1{
+    background-image: url(language.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 32%;
+    height: 99%;
+    margin-top: 3px;
+    border-radius: 15px;
+    color: white;
+    text-transform: capitalize;
+}
+.bottom2{
+    color: white;
+    background-image: url(additional.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 32%;
+    height: 99%;
+    margin-top: 3px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.bottom1 span{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight:600;
+    font-size: 25px;
+}
+.bottom1 p{
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+}
+.bottom3{
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 32%;
+    height: 99%;
+    margin-top: 3px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+
+.bottom2 span{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight:600;
+    font-size: 25px;
+}
+.bottom2 p{
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+}.bottom3 span{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight:600;
+    font-size: 25px;
+}
+.bottom3 p{
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+}
+.footer{
+    background-color: #5a1c74;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    bottom: -620px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin-top: 2px;
+    
+}
